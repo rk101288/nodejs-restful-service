@@ -17,5 +17,6 @@
 * Create new configuration - POST to localhost:3000/configuration with body {"name": "host3","hostname": "test.lab.com","port": "5555", "username":"test"}
 * Update a configuration - PUT to localhost:3000/configuration/id/{id} with desired updates.
 * Delete a configuration - localhost:3000/configuration/id/{id}
+* End with logout - Delete localhost:3000/login/richa
   
 
