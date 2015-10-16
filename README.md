@@ -17,6 +17,12 @@
 * Create new configuration - POST to localhost:3000/configuration with body {"name": "host3","hostname": "test.lab.com","port": "5555", "username":"test"}
 * Update a configuration - PUT to localhost:3000/configuration/id/{id} with desired updates.
 * Delete a configuration - localhost:3000/configuration/id/{id}
+* Paging - localhost:3000/configuration/commonProperty/something10?page=2
+* Paging - localhost:3000/configuration/?page=2
+* Sorting - localhost:3000/configuration/?sort_by=port&sort_order=asc
+* Sorting - localhost:3000/configuration/?sort_by=port&sort_order=asc
+* Sorting - localhost:3000/configuration/?sort_by=hostname
+* Sorting and Paging - localhost:3000/configuration/?sort_by=hostname&sort_order=desc&page=4
 * End with logout - Delete localhost:3000/login/richa
   
 
